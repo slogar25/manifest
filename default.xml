@@ -188,8 +188,8 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="cj360/android_external_openssh" remote="github" revision="cm-10.2" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
+  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssl" name="cj360/android_external_openssl" remote="github" revision="cm-10.2" />
   <project path="external/oprofile" name="cj360/android_external_oprofile" remote="github" revision="cm-10.2" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
