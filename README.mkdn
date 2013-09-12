@@ -34,6 +34,6 @@ To initialize your local repository using the ParanoidAndroid trees, use a comma
 
 Then to sync up:
 
-    repo sync -f
+    repo sync
 
 For information on how to build, check [Here](https://github.com/ParanoidAndroid/paranoid)
