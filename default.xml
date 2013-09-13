@@ -87,7 +87,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium" name="cj360/android_external_chromium" remote="github" revision="cm-10.2" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/clang" name="android_external_clang" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="external/clang" name="cj360/android_external_clang" remote="github" revision="cm-10.2" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
