@@ -413,7 +413,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <!--Vendors-->
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="cm" revision="cm-10.2" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-10.2" />
   <project path="vendor/pa" name="cj360/android_vendor_pa" remote="github" revision="jb43-legacy" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="ParanoidAndroid/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jb43" />
