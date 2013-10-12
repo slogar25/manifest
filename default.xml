@@ -23,9 +23,11 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="build" name="ParanoidSaberDroid/android_build" remote="github" revision="jb43" >
+  <project path="build" name="ParanoidAndroid/android_build" remote="github" revision="jb43-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="manifest" name="ParanoidSaberDroid/manifest" remote="github" revision="jb43-legacy" />
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="ParanoidSaberDroid/android_bionic" remote="github" revision="jb43" />
@@ -47,7 +49,7 @@
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/sample" name="android_device_sample" remote="cm" revision="cm-10.2" groups="device" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -71,6 +73,7 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="ParanoidSaberDroid/android_external_clang" remote="github" revision="cm-10.2" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/crda" name="android_external_crda" remote="cm" revision="cm-10.2" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="ParanoidSaberDroid/android_external_dnsmasq" remote="github" revision="cm-10.2" />
@@ -147,7 +150,6 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="SaberMod/android_external_llvm" remote="github" revision="sm-jb-mr2" />
-  <project path="external/lsof" name="ParanoidSaberDroid/android_external_lsof" remote="github" revision="cm-10.2" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
@@ -163,6 +165,7 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-10.2" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="platform/external/okhttp" />
@@ -216,8 +219,8 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="ParanoidSaberDroid/android_frameworks_av" remote="github" revision="cm-10.2" groups="pdk" />
-  <project path="frameworks/base" name="cj360/android_frameworks_base" remote="github" revision="jb43-legacy" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jb43-legacy" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="ParanoidSaberDroid/android_frameworks_compile_slang" remote="github" revision="cm-10.2" />
@@ -295,7 +298,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="cj360/android_packages_apps_Settings" remote="github" revision="jb43-legacy" />
+  <project path="packages/apps/Settings" name="ParanoidAndroid/android_packages_apps_Settings" remote="github" revision="jb43-legacy"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -307,7 +310,7 @@
   <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" revision="cm-10.2" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="ParanoidAndroid/android_packages_inputmethods_LatinIME" remote="github" revision="jb43"/>
-  <project path="packages/inputmethods/OpenWnn" name="cj360/android_packages_inputmethods_OpenWnn" remote="github" revision="cm-10.2" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
@@ -370,13 +373,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/core" name="ParanoidSaberDroid/android_system_core" remote="github" revision="jb43-legacy"  />
   <project path="system/extras" name="ParanoidAndroid/android_system_extras" remote="github" revision="jb43"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="ParanoidAndroid/android_system_vold" remote="github" revision="jb43-legacy" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -393,8 +396,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="ParanoidAndroid/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="jb43" />
 
   <project path="paranoid" name="ParanoidAndroid/paranoid" remote="github" revision="jb43" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
-    
+    <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
 
 </manifest>
