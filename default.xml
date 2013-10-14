@@ -226,7 +226,7 @@
   <project path="frameworks/base" name="ParanoidAndroid/android_frameworks_base" remote="github" revision="jb43-legacy" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="psd" revision="cm-10.2" />
+  <project path="frameworks/compile/slang" name="cm_frameworks_compile_slang" remote="psd" revision="cm-10.2" />
   <project path="frameworks/ex" name="cm_frameworks_ex" remote="psd" revision="cm-10.2" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
@@ -257,7 +257,7 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/msm7k" name="cm_hardware_msm7k" remote="cm" revision="cm-10.2" />
+  <project path="hardware/msm7k" name="cm_hardware_msm7k" remote="psd" revision="cm-10.2" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
