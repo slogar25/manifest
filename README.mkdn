@@ -1,7 +1,7 @@
 ParanoidAndroid[cj360]
 ===============
 
-    repo init -u https://github.com/cj360/ParanoidAndroid_manifest.git -b jb43-legacy
+    repo init -u https://github.com/cj360/ParanoidAndroid_manifest.git -b jb43-sm-4.7
 
 Then to sync up:
 
