@@ -169,16 +169,15 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-10.2" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="android_external_openssh" remote="psd" revision="cm-10.2" />
-  <project path="external/openssl" name="android_external_openssl" remote="psd" revision="cm-10.2" />
-  <project path="external/oprofile" name="android_external_oprofile" remote="psd" revision="cm-10.2" />
+  <project path="external/openssh" name="cm_external_openssh" remote="psd" revision="cm-10.2" />
+  <project path="external/openssl" name="cm_external_openssl" remote="psd" revision="cm-10.2" />
+  <project path="external/oprofile" name="cm_external_oprofile" remote="psd" revision="cm-10.2" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-10.2" />
   <project path="external/ping" name="android_external_ping" remote="psd" revision="cm-10.2" />
   <project path="external/ping6" name="android_external_ping6" remote="psd" revision="cm-10.2" />
