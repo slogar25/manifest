@@ -176,7 +176,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="ParanoidSaberDroid/cm_external_openssh" remote="github" revision="cm-10.2" />
   <project path="external/openssl" name="ParanoidSaberDroid/cm_external_openssl" remote="github" revision="cm-10.2" />
-  <project path="external/openvpn" name="ParanoidSaberDroid/cm_external_openvpn" remote="github" revision="cm-10.2" />
+  <project path="external/openvpn" name="ParanoidSaberDroid/android_external_openvpn" remote="github" revision="cm-10.2" />
   <project path="external/oprofile" name="ParanoidSaberDroid/android_external_oprofile" remote="github" revision="jb43" />
   <project path="external/ping" name="ParanoidSaberDroid/cm_external_ping" remote="github" revision="cm-10.2" />
   <project path="external/ping6" name="ParanoidSaberDroid/cm_external_ping6" remote="github" revision="cm-10.2" />
