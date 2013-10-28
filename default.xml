@@ -212,7 +212,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
-  <project path="external/webkit" name="ParanoidSaberDroid/cm_external_webkit" remote="github" revision="cm-10.2" />
+  <project path="external/webkit" name="ParanoidSaberDroid/android_external_webkit" remote="github" revision="jb43" />
   <project path="external/webp" name="ParanoidAndroid/android_external_webp" remote="github" revision="jb43" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
