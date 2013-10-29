@@ -33,7 +33,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="manifest" name="slogar25/manifest" remote="github" revision="jb43-legacy" />
+  <project path="manifest" name="ParanoidAndroid/manifest" remote="github" revision="jb43-legacy" />
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.2" />
