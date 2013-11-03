@@ -360,7 +360,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="ParanoidSaberDroid/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" remote="github" revision="sm-jb-mr2" />
 <!--SaberMod GCC Linux-x86 ARM-->
 
-<!--Google GCC Linux-x86 ARM-->
+<!--Google GCC Linux-x86 ARM
   <project path="prebuilts/gcc/linux-x86/arm/Google/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/Google/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
 <!--Google GCC Linux-x86 ARM-->
@@ -379,7 +379,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/core" name="cj360/pa_android_system_core_alt" remote="github" revision="jb43-legacy"  />
+  <project path="system/core" name="cj360/cj360/android_system_core" remote="github" revision="jb43-legacy"  />
   <project path="system/extras" name="ParanoidAndroid/android_system_extras" remote="github" revision="jb43"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
